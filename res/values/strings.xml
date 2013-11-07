@@ -2,9 +2,11 @@
 <resources>
 
     <string name="app_name">Olho Vivo</string>
-    <string name="action_settings">Settings</string>
-    <string name="title_section1">Section 1</string>
-    <string name="title_section2">Section 2</string>
-    <string name="title_section3">Section 3</string>
+    <string name="action_settings">Configurações</string>
+    <string name="title_activity_main">Olho Vivo</string>
+    <string name="search">Pesquisar</string>
+    <string name="denounce">Denunciar</string>
+    <string name="about_description">Descrição do Sobre</string>
+    <string name="logo_description">Descrição do Logotipo</string>
 
 </resources>

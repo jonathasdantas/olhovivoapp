@@ -1,0 +1,56 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:divider="?android:dividerHorizontal"
+    android:orientation="vertical"
+    android:showDividers="middle"
+    tools:context=".MainActivity" >
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="wrap_content"
+        android:layout_height="0dip"
+        android:layout_weight="1"
+        android:contentDescription="@string/logo_description"
+        android:layout_gravity="center"
+        android:src="@drawable/logo" />
+    
+    <LinearLayout
+        android:id="@+id/menu_bottom"
+        style="?android:buttonBarStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="bottom|center" >
+
+        <Button
+            android:id="@+id/search_button"
+            style="?android:buttonBarButtonStyle"
+            android:paddingRight="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/search_icon"
+            android:text="@string/search"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/denounce_button"
+            style="?android:buttonBarButtonStyle"
+            android:paddingRight="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/denounce_icon"
+            android:text="@string/denounce"
+            android:textSize="16sp" />
+
+        <ImageButton
+            android:id="@+id/about_button"
+            style="?android:buttonBarButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/about_description"
+            android:src="@drawable/about_icon" />
+    </LinearLayout>
+
+</LinearLayout>
