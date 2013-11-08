@@ -4,9 +4,38 @@
     <string name="app_name">Olho Vivo</string>
     <string name="action_settings">Configurações</string>
     <string name="title_activity_main">Olho Vivo</string>
+    <string name="title_activity_search">Pesquisar</string>
     <string name="search">Pesquisar</string>
     <string name="denounce">Denunciar</string>
     <string name="about_description">Descrição do Sobre</string>
     <string name="logo_description">Descrição do Logotipo</string>
+    <string name="pesquisa_livre_placeholder">Pesquisa livre</string>
+    
+    <string-array name="spinner_array">
+        <item>Mercury</item>
+        <item>Venus</item>
+        <item>Earth</item>
+        <item>Mars</item>
+        <item>Jupiter</item>
+        <item>Saturn</item>
+        <item>Uranus</item>
+        <item>Neptune</item>
+        <item>Mercury</item>
+        <item>Venus</item>
+        <item>Earth</item>
+        <item>Mars</item>
+        <item>Jupiter</item>
+        <item>Saturn</item>
+        <item>Uranus</item>
+        <item>Neptune</item>
+        <item>Mercury</item>
+        <item>Venus</item>
+        <item>Earth</item>
+        <item>Mars</item>
+        <item>Jupiter</item>
+        <item>Saturn</item>
+        <item>Uranus</item>
+        <item>Neptune</item>
+    </string-array>
 
 </resources>
