@@ -9,7 +9,11 @@
     <string name="denounce">Denunciar</string>
     <string name="about_description">Descrição do Sobre</string>
     <string name="logo_description">Descrição do Logotipo</string>
-    <string name="pesquisa_livre_placeholder">Pesquisa livre</string>
+    <string name="pesquisa_livre_placeholder">Pesquisa Livre</string>
+    <string name="pessoa_jurica_label">Pessoa Jurídica</string>
+    <string name="natureza_contrato_label">Natureza Contrato</string>
+    <string name="classificacao_contrato_label">Classificação Contrato</string>
+    <string name="orgao_solicitante_label">Orgão Solicitante</string>
     
     <string-array name="spinner_array">
         <item>Mercury</item>

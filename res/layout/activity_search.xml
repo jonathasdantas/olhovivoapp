@@ -7,50 +7,78 @@
     android:showDividers="middle"
     tools:context=".SearchActivity" >
 
-    <LinearLayout
-        android:id="@+id/search_filter"
-        android:layout_width="match_parent"
-    	android:layout_height="0dip"
-        android:orientation="vertical"
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="0dip"
         android:layout_weight="1" >
-        
-	    <Spinner 
-	        android:id="@+id/pessoa_juridica"
-	        android:layout_width="fill_parent"
-	        android:layout_height="wrap_content"
-	        android:layout_marginBottom="30dp"
-	        android:layout_marginTop="30dp" />
-	    
-	    <Spinner 
-	        android:id="@+id/natureza_contrato"
-	        android:layout_width="fill_parent"
-	        android:layout_height="wrap_content"
-	        android:layout_marginBottom="30dp" />
-	    
-	    <Spinner 
-	        android:id="@+id/classificacao_contrato"
-	        android:layout_width="fill_parent"
-	        android:layout_height="wrap_content"
-	        android:layout_marginBottom="30dp" />
-	    
-	    <Spinner 
-	        android:id="@+id/orgao_solicitante"
-	        android:layout_width="fill_parent"
-	        android:layout_height="wrap_content"
-	        android:layout_marginBottom="30dp" />
-
-	    <EditText
-	        android:id="@+id/pesquisa_livre"
-	        android:inputType="text"
-	        android:hint="@string/pesquisa_livre_placeholder"
-	        android:layout_width="fill_parent"
-	        android:layout_height="wrap_content"
-	        android:ems="10" >
-
-	        <requestFocus />
-	    </EditText>
-	 
-    </LinearLayout>
+    
+	    <LinearLayout
+	        android:id="@+id/search_filter"
+	        android:layout_width="match_parent"
+	    	android:layout_height="0dip"
+	        android:orientation="vertical" >
+	
+	        <TextView
+	            style="@style/SearchLabel"
+	            android:id="@+id/pessoa_juridica_label"
+	            android:text="@string/pessoa_jurica_label"
+	            android:textAppearance="?android:attr/textAppearanceMedium"
+	            android:layout_marginTop="@dimen/form_search_margin" />
+	        
+		    <Spinner 
+		        android:id="@+id/pessoa_juridica"
+		        android:layout_width="fill_parent"
+		        android:layout_height="wrap_content"
+		        android:layout_marginBottom="@dimen/form_search_margin" />
+		    
+		    <TextView
+	            style="@style/SearchLabel"
+	            android:id="@+id/natureza_contrato_label"
+	            android:text="@string/natureza_contrato_label"
+	            android:textAppearance="?android:attr/textAppearanceMedium" />
+		    
+		    <Spinner 
+		        android:id="@+id/natureza_contrato"
+		        android:layout_width="fill_parent"
+		        android:layout_height="wrap_content"
+		        android:layout_marginBottom="@dimen/form_search_margin" />
+		    
+		    <TextView
+		        style="@style/SearchLabel"
+	            android:id="@+id/classificacao_contrato_label"
+	            android:text="@string/classificacao_contrato_label"
+	            android:textAppearance="?android:attr/textAppearanceMedium" />
+		    
+		    <Spinner 
+		        android:id="@+id/classificacao_contrato"
+		        android:layout_width="fill_parent"
+		        android:layout_height="wrap_content"
+		        android:layout_marginBottom="@dimen/form_search_margin" />
+		    
+			<TextView
+			    style="@style/SearchLabel"
+	            android:id="@+id/orgao_solicitante_label"
+	            android:text="@string/orgao_solicitante_label"
+	            android:textAppearance="?android:attr/textAppearanceMedium" />	    
+		    
+		    <Spinner 
+		        android:id="@+id/orgao_solicitante"
+		        android:layout_width="fill_parent"
+		        android:layout_height="wrap_content"
+		        android:layout_marginBottom="@dimen/form_search_margin" />
+	
+		    <EditText
+		        android:id="@+id/pesquisa_livre"
+		        android:inputType="text"
+		        android:hint="@string/pesquisa_livre_placeholder"
+		        android:textColorHint="#999999"
+		        android:layout_width="fill_parent"
+		        android:layout_height="wrap_content"
+		        android:ems="10" />
+		    
+	    </LinearLayout>
+    
+    </ScrollView>
     
     <LinearLayout
         android:id="@+id/menu_bottom"
@@ -87,6 +115,7 @@
             android:layout_height="wrap_content"
             android:contentDescription="@string/about_description"
             android:src="@drawable/about_icon" />
+        
     </LinearLayout>
 
 </LinearLayout>
