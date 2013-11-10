@@ -96,7 +96,8 @@
             android:layout_height="wrap_content"
             android:drawableLeft="@drawable/search_icon"
             android:text="@string/search"
-            android:textSize="16sp" />
+            android:textSize="16sp"
+            android:onClick="handleMenuClick" />
 
         <Button
             android:id="@+id/denounce_button"
@@ -106,7 +107,8 @@
             android:layout_height="wrap_content"
             android:drawableLeft="@drawable/denounce_icon"
             android:text="@string/denounce"
-            android:textSize="16sp" />
+            android:textSize="16sp"
+            android:onClick="handleMenuClick" />
 
         <ImageButton
             android:id="@+id/about_button"
@@ -114,7 +116,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:contentDescription="@string/about_description"
-            android:src="@drawable/about_icon" />
+            android:src="@drawable/about_icon"
+            android:onClick="handleMenuClick" />
         
     </LinearLayout>
 

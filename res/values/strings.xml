@@ -1,20 +1,29 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-
+    
+    <!-- General Resources -->
     <string name="app_name">Olho Vivo</string>
     <string name="action_settings">Configurações</string>
-    <string name="title_activity_main">Olho Vivo</string>
-    <string name="title_activity_search">Pesquisar</string>
     <string name="search">Pesquisar</string>
     <string name="denounce">Denunciar</string>
     <string name="about_description">Descrição do Sobre</string>
     <string name="logo_description">Descrição do Logotipo</string>
+    
+	<!-- Main Activity -->
+    <string name="title_activity_main">Olho Vivo</string>
+    
+	<!-- Search Activity -->
+    <string name="title_activity_search">Pesquisar</string>
     <string name="pesquisa_livre_placeholder">Pesquisa Livre</string>
     <string name="pessoa_jurica_label">Pessoa Jurídica</string>
     <string name="natureza_contrato_label">Natureza Contrato</string>
     <string name="classificacao_contrato_label">Classificação Contrato</string>
     <string name="orgao_solicitante_label">Orgão Solicitante</string>
     
+	<!-- Results Activity -->
+    <string name="title_activity_results">Resultados</string>
+
+    <!-- Remover Após Finalizar -->
     <string-array name="spinner_array">
         <item>Mercury</item>
         <item>Venus</item>
@@ -41,5 +50,5 @@
         <item>Uranus</item>
         <item>Neptune</item>
     </string-array>
-
+    
 </resources>
